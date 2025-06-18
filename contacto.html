@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto - Maxi Doncel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Maxi Doncel</h1>
+    <p>Autor de cuentos infantiles</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="sobre-mi.html">Sobre mí</a></li>
+        <li><a href="publicaciones.html">Publicaciones</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Contacto</h2>
+      <p>Si querés contactarme por consultas, colaboraciones o propuestas, completá el siguiente formulario:</p>
+
+      <form action="https://formspree.io/f/yourformid" method="POST">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
+
+        <button type="submit" class="button">Enviar</button>
+      </form>
+
+      <p>También podés escribirme a: <strong>maxi@email.com</strong></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Maxi Doncel. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
